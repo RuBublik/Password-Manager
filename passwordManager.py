@@ -35,9 +35,4 @@ def openPassWindow():
 	passwordWindow.mainloop()
 	
 	
-def checkForMAC(MAC):
-	packFromPhone=sniff(lfilter=lambda d: d.src=='70:0b:c0:9c:39:15' or d.dst=='70:0b:c0:9c:39:15')
-	print "Phone is connected to the network"
-	openPassWindow()
-	
 openPassWindow()
