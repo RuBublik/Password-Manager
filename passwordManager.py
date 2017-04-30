@@ -1,4 +1,4 @@
-from scapy.all import *
+
 from Tkinter import *
 
 def openFileWindow():
